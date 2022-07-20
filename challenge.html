@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css challenge</title>
     <link href="challenge.css" rel="stylesheet" te>
-    <script src="main.js"></script>
+    
 </head>
 <body>
 
@@ -34,9 +34,9 @@
         <p>We know how large objects will act but things on a<br>
         small scale just do not act that way
         </p>
-        <div>
-            <button id="btnquote">Get Quote Now</button>
-            <button id="btnlearnmore">Learn More</button>
+        <div class="home-buttons">
+            <input type="button" id="btnquote" value="Get Quote Now">
+            <input type="button" id="btnlearnmore" value="Learn More">
         </div>
         
     </div>
@@ -150,7 +150,7 @@
         <div class="pkg1">
             <h3>FREE</h3>
             <p>Organize across all apps by hand</p>
-            <div>0
+            <div style="color: rgb(75, 175, 214);">0
             $<br>Per Month</div><br>
             <div style="text-align:left;">
                 <input type="checkbox" value="" id="">Unlimited product updates<br>
@@ -159,14 +159,14 @@
                 <input type="checkbox" value="" id="">1GB Cloud storage<br>
                 <input type="checkbox" value="" id="">Email and community support<br>
                 
-            </div>
+            </div><br>
             <input type="button" value="Try for free" id="btnpricing">
         </div>
 
         <div class="pkg2">
             <h3>STANDARD</h3>
             <p>Organize across all apps by hand</p>
-            <div>0
+            <div style="color: rgb(75, 175, 214);">0
             $<br>Per Month</div><br>
             <div style="text-align:left;">
                 <input type="checkbox" value="" id="">Unlimited product updates<br>
@@ -175,14 +175,15 @@
                 <input type="checkbox" value="" id="">1GB Cloud storage<br>
                 <input type="checkbox" value="" id="">Email and community support<br>
                 
-            </div>
-            <input type="button" value="Try for free" id="btnpricing">
+            </div><br>
+            <input type="button" value="Try for free" id="btnpricing"
+            >
         </div>
 
         <div class="pkg3">
             <h3>PREMIUM</h3>
             <p>Organize across all apps by hand</p>
-            <div>0
+            <div style="color: rgb(75, 175, 214);">0
             $<br>Per Month</div><br>
             <div style="text-align:left;">
                 <input type="checkbox" value="" id="">Unlimited product updates<br>
@@ -191,12 +192,12 @@
                 <input type="checkbox" value="" id="">1GB Cloud storage<br>
                 <input type="checkbox" value="" id="">Email and community support<br>
                 
-            </div>
+            </div><br>
             <input type="button" value="Try for free" id="btnpricing">
         </div>
     </div>
     <div class="contact" id="contact">
-        <div>
+        <div class="contact-info">
             <h2>We Have Branches All Over The World</h2><br>
             
                 The gradual accumulation of information about atomic and
@@ -213,7 +214,7 @@
 
     <div class="appointment">
         <div class="apptmtimg">
-            <img src="./images/contact.png" alt="image" width="200px" height="400px">
+            <img src="./images/contact.png" alt="image">
         </div>
         <div class="apptmtForm">
             <h2>Book Appointment</h2><br>
@@ -229,11 +230,13 @@
             </select>
             Time *<br>
             <select name="time" id="time">
-                <option value="">4:00 Availabale</option>
-                <option value="">4:00 Availabale</option>
-                <option value="">4:00 Availabale</option>
+                <option value="">4:00 Available</option>
+                <option value="">4:10 Available</option>
+                <option value="">4:20 Available</option>
             </select><br>
-            <input type="button" value="Book Appointment">
+            <input type="button" value="Book Appointment"
+            style="background-color: rgb(75, 175, 214); color:white;
+            padding:10px; border:none; border-radius:5px;">
         </div>
     </div>
     <div class="consult">
@@ -250,32 +253,33 @@
     
     <div class="aboutCompany">
         <div class="companyinfo">
-            <h5>Company Info</h5>
+            <h3>Company Info</h3>
             About Us <br> Carrie <br> We are hiring<br> Blog
         </div>
         <div class="legal">
-            <h5>Legal</h5>
+            <h3>Legal</h3>
             About Us <br> Carrie <br> We are hiring<br> Blog
         </div>
         <div class="Features">
-            <h5>Features</h5>
+            <h3>Features</h3>
             Business Marketing <br>
             User Analytic <br>
             Live Chat <br>
             Unlimited Support
         </div>
         <div class="resources">
-            <h5>Resources</h5>
+            <h3>Resources</h3>
             iOS & Android <br>
             Watch a Demo <br>
             Customers <br>
             API
         </div>
         <div class="contacts">
-            <h5>Get In Touch</h5>
-            (480) 555-0103 <br>
-            4517 Washington Ave. <br>
-            debra.holt@example.com
+            <h3>Get In Touch</h3>
+            
+            <img src="/logos/call.svg" alt="" width="20px" height="20px">(480) 555-0103 <br>
+            <img src="/logos/location.svg" alt="" width="20px" height="20px">4517 Washington Ave. <br>
+            <img src="/logos/mail-black-envelope-symbol_icon-icons.com_56519.png" alt="" width="20px" height="20px">debra.holt@example.com
         </div>
     </div>
     <div class="last-container">
@@ -283,9 +287,9 @@
             Made With Love By Figmaland All Rights Reserved
         </div>
         <div>
-            <img src="/logos/logo-facebook.svg" alt="" width="30px" height="30px">
-            <img src="/logos/logo-instagram.svg" alt="" width="30px" height="30px">
-            <img src="/logos/logo-twitter.svg" alt="" width="30px" height="30px">
+            <img src="/logos/logo-facebook.svg" alt="" width="20px" height="20px">
+            <img src="/logos/logo-instagram.svg" alt="" width="20px" height="20px">
+            <img src="/logos/logo-twitter.svg" alt="" width="20px" height="20px">
         </div>
     </div>
 </body>
