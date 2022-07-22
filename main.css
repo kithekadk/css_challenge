@@ -213,7 +213,19 @@ p{
     background-color: aliceblue;
     align-items: flex-end;
 }
-.packages > div:hover {
+.display-cost{
+    display: flex;
+    justify-content: center;
+    color: rgb(75, 175, 214);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#break-line {
+    text-align: left;
+    line-height: 15px;
+    padding:3px
+}
+.pkg1:hover , .pkg2:hover, .pkg3:hover{
     background-color: rgb(16, 15, 71);
     height: 65vh;
     color: white;
